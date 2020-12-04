@@ -15,6 +15,7 @@ https://api.ciscospark.com/v1/rooms
 
 ## Google Spread sheetを作成。
 A列にBotに発言してほしい内容を羅列する。  
+例：https://docs.google.com/spreadsheets/d/1paxrEfFCPTgEo1iRTCDViB2C2qJNiqLcGyn9fST-MPw/edit#gid=0
 Spread SheetのToolsオプションから、Script Editorを選択。
 
 ## GAS Scriptの編集
@@ -26,3 +27,6 @@ Apps Scriptの管理画面からトリガーを設定してください。
 https://script.google.com/home
 
 以上
+
+完成系のGASはこれ：
+https://script.google.com/d/1gjuXj5UByKD0q0s7ArVNb19bsLA_tb-rg4KNJ0WjugfisXnpPEJve-zl/edit
