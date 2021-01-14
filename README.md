@@ -12,7 +12,7 @@ https://note.com/y_miine/n/nd2f180509015
 
 ## RoomIdの取得
 Postmanで、
-GETメソッドのList roomsを使用し、Botを参加させたSpaceのRoomIdを記録しておきます。  
+GETメソッドのList roomsを使用し、Botを参加させたSpaceのRoomId（一番上の"Id"）を記録しておきます。  
 https://api.ciscospark.com/v1/rooms
 
 ## Google Spread sheetを作成。
