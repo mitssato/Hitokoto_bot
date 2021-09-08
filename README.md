@@ -1,6 +1,6 @@
 
 # 定時でWebex Teamsに発言するBotの作成
-ガッキーが平日に今日の一言のリマインドしてくれるボットです。GAS(Google Apps Script)を使用します。
+平日に今日の一言のリマインドをしてくれるBotです。GAS(Google Apps Script)を使用します。
 
 ## Botの作成
 まずはWebexにてBotを作成します。  
