@@ -1,15 +1,13 @@
  /**
  * 投稿処理
+ * roomIdとBearerトークンを入力必要
  */
 function send(text) {
   
   // 投稿内容を作成
   var data = {
-    // 投稿先
-    'roomId': 'Y2lzY29zcGFyazovL3VzL1JPT00vMTcyZWYzZDAtMmE1Mi0xMWViLWI0NjgtMDdkMzVkZDcxZDdk',
-    //FY20_PS: Y2lzY29zcGFyazovL3VzL1JPT00vNDgxNjcxMjAtNzRiZS0xMWVhLWJlMWYtZWJmNGYyOTUwNWZh
-    //gacky:Y2lzY29zcGFyazovL3VzL1JPT00vMzVhNjc1MTgtNWI3OS0zODY4LThhMGUtOGM1OWYyZjczMjU4
-    //今日のひとこと：Y2lzY29zcGFyazovL3VzL1JPT00vMTcyZWYzZDAtMmE1Mi0xMWViLWI0NjgtMDdkMzVkZDcxZDdk
+    // 投稿先のroomIdを以下に入力
+    'roomId': '',
     // 本文
     'text': text
   };
@@ -22,8 +20,8 @@ function send(text) {
     'contentType': 'application/json',
     // ヘッダ
     'headers': { 
-      // 認証情報
-      'Authorization': 'Bearer ' + 'MWJhZThjZTUtNDZjNy00ZDg1LTk0NTQtNGQ5ZDdjNWRjZmQ0YzU0YmFiOWUtOTBj_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f'
+      // 認証情報を以下に入力
+      'Authorization': 'Bearer ' + ''
     },
     // 投稿内容を整形
     'payload': JSON.stringify(data)
