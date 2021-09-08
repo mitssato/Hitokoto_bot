@@ -6,6 +6,7 @@
 まずはWebexにてBotを作成します。  
 以下URLの記事を参照し、Botを作成してください。   
 https://note.com/y_miine/n/nd2f180509015
+
 ![image](https://user-images.githubusercontent.com/74521124/132471265-89d29b3b-db1a-4163-bbec-740f4f88ecce.png)
 
 
