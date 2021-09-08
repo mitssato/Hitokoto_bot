@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 定時でWebex Teamsに発言するBotの作成
 ガッキーが平日に今日の一言のリマインドしてくれるボットです。GAS(Google Apps Script)を使用します。
 
@@ -32,7 +32,10 @@ Google Spread Sheetを作成し、A列にBotに発言してほしい内容を羅
 その後、Spread SheetのToolsオプションから、Script Editorを選択してください。
 
 ## GAS Scriptの編集
-Code.jsを使ってください。
+このGithubに乗せている、Code.jsをコピペして使ってください。
+
+![image](https://user-images.githubusercontent.com/74521124/132472501-9814f1ac-5e4c-437e-9672-9eb700c1f641.png)
+
 
 ## Trigerの設定
 Apps Scriptの管理画面からトリガーを設定してください。  
@@ -41,6 +44,4 @@ https://script.google.com/home
 
 以上です。
 
-完成系のGAS Scriptはこちらになります：
-https://script.google.com/d/1gjuXj5UByKD0q0s7ArVNb19bsLA_tb-rg4KNJ0WjugfisXnpPEJve-zl/edit
->>>>>>> origin/master
+
