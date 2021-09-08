@@ -14,14 +14,22 @@ https://note.com/y_miine/n/nd2f180509015
 その後、Botを任意のWebex Spaceに参加させます。
 
 ## RoomIdの取得
-Postmanで、
+Postman等で、
 GETメソッドのList roomsを使用し、Botを参加させたSpaceのRoomId（一番上の"Id"）を記録しておきます。  
 https://api.ciscospark.com/v1/rooms
 
+![image](https://user-images.githubusercontent.com/74521124/132471489-6ef1c1e3-2699-4c90-9ef0-dca296ebfc37.png)
+
+
 ## Google Spread sheetを作成。
-A列にBotに発言してほしい内容を羅列します。  
-例：https://docs.google.com/spreadsheets/d/1paxrEfFCPTgEo1iRTCDViB2C2qJNiqLcGyn9fST-MPw/edit#gid=0
-Spread SheetのToolsオプションから、Script Editorを選択してください。
+Google Spread Sheetを作成し、A列にBotに発言してほしい内容を羅列します。  （保存場所は問いません）
+
+例：
+
+![image](https://user-images.githubusercontent.com/74521124/132471663-ca0c1294-8e6e-420a-afb8-e2eb836a8f51.png)
+
+
+その後、Spread SheetのToolsオプションから、Script Editorを選択してください。
 
 ## GAS Scriptの編集
 Code.jsを使ってください。
