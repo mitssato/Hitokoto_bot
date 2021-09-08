@@ -34,6 +34,8 @@ Google Spread Sheetを作成し、A列にBotに発言してほしい内容を羅
 ## GAS Scriptの編集
 このGithubに乗せている、Code.jsをコピペして使ってください。
 
+botを利用するspaceのroomIdと、作成したbotのBearer tokenを記入してください。
+
 ![image](https://user-images.githubusercontent.com/74521124/132472501-9814f1ac-5e4c-437e-9672-9eb700c1f641.png)
 
 
