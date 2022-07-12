@@ -38,6 +38,8 @@ botを利用するspaceのroomIdと、作成したbotのBearer tokenを記入し
 
 ![image](https://user-images.githubusercontent.com/74521124/132472501-9814f1ac-5e4c-437e-9672-9eb700c1f641.png)
 
+[追記]
+googleカレンダーに、日本の祝日カレンダーを追加する。
 
 ## Trigerの設定
 Apps Scriptの管理画面からトリガーを設定してください。  
